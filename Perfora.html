@@ -571,48 +571,9 @@ nav.show{transform:translateY(0);}
       </ul>
     </div>
 
-    <!-- READY EMAIL -->
-    <div class="rev">
-      <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--dark);margin-bottom:1.2rem;display:flex;align-items:center;gap:.5rem;">📧 Ready-to-Send Email to Perfora</h3>
-      <div class="email-box">
-        <div class="to">TO:</div>
-        <div class="subject" style="color:var(--gold);font-size:1.1rem;letter-spacing:.05em">hello@perforacare.com</div>
-        <div class="to" style="margin-top:.5rem">SUBJECT:</div>
-        <div class="subject">I built a full premium ad campaign for Perfora — here's a free preview 🦷✨</div>
-        <div class="email-body">
-Hi Jatan / Tushar,<br><br>
-
-My name is <em>Akarshak Mishra</em>, and I'm a digital creative / ad designer .<br><br>
-
-I've been following Perfora's journey since Shark Tank Season 2 — the brand is genuinely exciting. <strong>985% growth, clean formulations, beautiful packaging</strong> — everything a modern D2C brand should be.<br><br>
-
-I noticed that while Perfora's product story is exceptional, there's a huge opportunity to communicate it at a premium brand level — the kind of advertising that Colgate can't do because they're too legacy, and that most new D2C brands can't afford. <strong>Perfora can own that space.</strong><br><br>
-
-So I built something for you — completely on my own, no charge.<br><br>
-
-👉 <strong>A full 8-section premium brand ad campaign for Perfora</strong> — hero cinematic ad, problem statement, product showcase, brand promise, testimonials, and a final CTA — all in a production-ready HTML file you can deploy anywhere.<br><br>
-
-The concept is called <em>"Your Smile, Elevated"</em> — positioning Perfora as the skincare equivalent of oral care: aspirational, clean, and designed to be displayed. It targets your core audience: urban Indians 22–38 who already trust D2C brands and are looking to upgrade every part of their routine.<br><br>
-
-<strong>I'd love to share the full file with you.</strong> No strings attached — I just want you to see what's possible.<br><br>
-
-If you like what you see, I'd be happy to discuss:<br>
-→ Social media ad creatives ( Meta Ads)<br>
-→ A campaign landing page for your next product launch<br>
-→ An ongoing creative retainer<br><br>
-
-Can I send it over? Takes 2 minutes to open in a browser and I think your marketing team will love it.<br><br>
-
-Best,<br>
-<em>Name  : Akarshak Mishra</em><br>
-<em>Gmail : shuave114@gmail.com</em>
-<br>
 
 
-P.S. — I also have a full pitch document breaking down exactly why Perfora needs a premium brand campaign right now and what it would cost to execute properly. Happy to share that too.
-        </div>
-        <button class="copy-btn" onclick="copyEmail(this)">📋 Copy Email Text</button>
-      </div>
+
 
       <div class="contact-highlight" style="margin-top:2rem;">
         <span style="font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.5rem;">📧 Perfora's Official Email</span>
@@ -669,40 +630,8 @@ document.querySelectorAll('.anim-num').forEach(el=>{
   });
 });
 
-// COPY EMAIL
-function copyEmail(btn){
-  const emailText=`Subject: I built a full premium ad campaign for Perfora — here's a free preview 🦷✨
-
-Hi Jatan / Tushar,
-
-My name is Akarshak Mishra, and I'm a digital creative / ad designer.
-
-I've been following Perfora's journey since Shark Tank Season 2 — the brand is genuinely exciting. 985% growth, clean formulations, beautiful packaging — everything a modern D2C brand should be.
-
-I noticed that while Perfora's product story is exceptional, there's a huge opportunity to communicate it at a premium brand level — the kind of advertising that Colgate can't do because they're too legacy, and that most new D2C brands can't afford. Perfora can own that space.
-
-So I built something for you — completely on my own, no charge.
-
-👉 A full 8-section premium brand ad campaign for Perfora — hero cinematic ad, problem statement, product showcase, brand promise, testimonials, and a final CTA — all in a production-ready HTML file you can deploy anywhere.
-
-The concept is called "Your Smile, Elevated" — positioning Perfora as the skincare equivalent of oral care: aspirational, clean, and designed to be displayed. It targets your core audience: urban Indians 22–38 who already trust D2C brands and are looking to upgrade every part of their routine.
-
-I'd love to share the full file with you. No strings attached — I just want you to see what's possible.
-
-If you like what you see, I'd be happy to discuss:
-→ Social media ad creatives (Instagram Reels, Meta Ads)
-→ A campaign landing page for your next product launch
-→ An ongoing creative retainer
-
-Can I send it over? Takes 2 minutes to open in a browser and I think your marketing team will love it.
-
-Best,
-Name  : Akarshak Mishra
-Gmail : shuave114@gmail.com
-
-P.S. — I also have a full pitch document breaking down exactly why Perfora needs a premium brand campaign right now and what it would cost to execute properly. Happy to share that too.`;
-  navigator.clipboard.writeText(emailText).then(()=>{btn.textContent='✅ Copied!';btn.classList.add('copied');setTimeout(()=>{btn.textContent='📋 Copy Email Text';btn.classList.remove('copied');},3000);});
-}
+  }
 </script>
 </body>
+
 </html>
